@@ -1,4 +1,4 @@
-[11:36, 10.12.2019] אוריה הייפרט: package EX1;
+package EX1;
 
 import java.io.IOException;
 
