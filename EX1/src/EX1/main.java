@@ -1,4 +1,4 @@
-package EX1;
+[11:36, 10.12.2019] אוריה הייפרט: package EX1;
 
 import java.io.IOException;
 
@@ -18,8 +18,8 @@ public class main {
 
         //  String s = "min(min(x^2,min(4x+5,-2x)),2x+3)";
         //EX1.function c = new EX1.ComplexFunction();
-        c.initFromString("min(min(x^2,min(4x+5,-2x)),2x+3)");
-        System.out.println(c.f(-9));
+        //      c.initFromString("min(min(x^2,min(4x+5,-2x)),2x+3)");
+        //       System.out.println(c.f(-9));
 //       complexFunction c = new complexFunction(p,p1,"plus");
 //       complexFunction c1 = new complexFunction(c,p2,"plus");
 //       System.out.println(c1.toString());
@@ -35,7 +35,7 @@ public class main {
 //       EX1.function y = new complexFunction(s);
 //       System.out.println(y.toString());
         Functions_GUI fg = new Functions_GUI();
-        fg.initFromFile("C:/Users/Yair/Downloads/function_file (1).txt");
+        fg.initFromFile("C:/Users/Oriya/Downloads/function_file.txt");
     }
 
 }
